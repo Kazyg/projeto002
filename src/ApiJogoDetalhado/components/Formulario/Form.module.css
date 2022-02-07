@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: baseline;
+}
+.divForm{
+
+    border:2px solid black;
+}
+.divComentario{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+}

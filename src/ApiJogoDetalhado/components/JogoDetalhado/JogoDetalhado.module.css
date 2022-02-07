@@ -1,0 +1,36 @@
+.divInvisivel{
+  display: none;
+}
+.imgPrincipal{
+
+  width: 100%;
+  object-fit: cover;
+}
+.imgSecundariaDiv{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.imgSecundaria{
+
+  width: 23%;
+  height: 150px;
+}
+.imgSecundaria:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.divDetalhes{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  
+  justify-content: flex-start;
+}
+.divRequisitos{
+
+  background-color:rgb(136, 135, 135);
+  font-family: 'Montserrat', sans-serif;
+}
+  
